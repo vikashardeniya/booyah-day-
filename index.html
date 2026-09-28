@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booyah Day | Free Fire Tournaments</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#080b12;color:#fff}
+header{position:sticky;top:0;background:#0d111b;border-bottom:1px solid #222a38;z-index:10}
+.nav{max-width:1100px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:flex;align-items:center}.logo img{width:120px;height:46px;object-fit:contain;object-position:center}
+nav a{color:#cbd2df;text-decoration:none;margin-left:20px;font-size:14px}
+.hero{max-width:1100px;margin:auto;padding:70px 20px 50px;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.badge{display:inline-block;background:#171e2b;border:1px solid #2b3547;padding:8px 12px;border-radius:30px;color:#ffb000;font-size:13px;margin-bottom:18px}
+h1{font-size:52px;line-height:1.05;margin-bottom:18px}
+.hero p{color:#aeb7c7;line-height:1.7;max-width:600px}
+.buttons{margin-top:25px;display:flex;gap:12px}
+.btn{padding:13px 20px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-block}
+.primary{background:#ffb000;color:#111}.secondary{border:1px solid #30394a;color:#fff}
+.card{background:#111722;border:1px solid #252f40;border-radius:18px;padding:24px}
+.phone{min-height:280px;display:flex;flex-direction:column;justify-content:center}
+.phone .fire{font-size:70px;text-align:center;margin-bottom:10px}
+section{max-width:1100px;margin:auto;padding:45px 20px}
+.title{display:flex;justify-content:space-between;align-items:end;margin-bottom:22px}
+.title h2{font-size:30px}.title p{color:#8994a7}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tcard h3{margin:10px 0}.meta{color:#9da8ba;font-size:14px;line-height:1.8}
+.tag{display:inline-block;font-size:12px;background:#1a2331;padding:5px 8px;border-radius:6px;color:#ffca4d}
+.cta{margin-top:30px;text-align:center;background:#111722;border:1px solid #252f40;border-radius:18px;padding:35px}
+footer{text-align:center;color:#687487;padding:35px 20px;border-top:1px solid #1c2431;margin-top:30px}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-top:45px}h1{font-size:40px}.grid{grid-template-columns:1fr}nav a{margin-left:9px;font-size:12px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="logo"><img src="a_high_contrast_high_energy_esports_gaming_logo_b.png" alt="Booyah Day logo"></div>
+    <nav><a href="#tournaments">Tournaments</a><a href="#how">How it works</a><a href="#register">Register</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div>
+    <div class="badge">FREE FIRE COMMUNITY TOURNAMENTS</div>
+    <h1>Play. Compete.<br><span style="color:#ffb000">Booyah!</span></h1>
+    <p>Join community Free Fire tournaments, check match details, register your squad and follow live results from one simple place.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#tournaments">View Tournaments</a>
+      <a class="btn secondary" href="#how">How It Works</a>
+    </div>
+  </div>
+  <div class="card phone">
+    <img src="a_high_contrast_high_energy_esports_gaming_logo_b.png" alt="Booyah Day esports logo" style="width:100%;max-width:360px;margin:0 auto 12px;display:block">
+    <h2 style="text-align:center">Bermuda Battle</h2>
+    <p style="text-align:center;color:#9da8ba;margin-top:8px">Squad • Community Match</p>
+  </div>
+</section>
+
+<section id="tournaments">
+  <div class="title"><div><h2>Upcoming Tournaments</h2><p>Choose a match and register.</p></div></div>
+  <div class="grid">
+    <div class="card tcard">
+      <span class="tag">BERMUDA</span><h3>Bermuda Squad Clash</h3>
+      <div class="meta">Mode: Squad<br>Entry: Free<br>Status: Open</div>
+      <a class="btn primary" style="margin-top:15px" href="#register">Register</a>
+    </div>
+    <div class="card tcard">
+      <span class="tag">BERMUDA</span><h3>Weekend Battle</h3>
+      <div class="meta">Mode: Duo<br>Entry: Free<br>Status: Coming Soon</div>
+      <a class="btn secondary" style="margin-top:15px" href="#register">Notify Me</a>
+    </div>
+    <div class="card tcard">
+      <span class="tag">COMMUNITY</span><h3>Solo Challenge</h3>
+      <div class="meta">Mode: Solo<br>Entry: Free<br>Status: Coming Soon</div>
+      <a class="btn secondary" style="margin-top:15px" href="#register">Notify Me</a>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="title"><div><h2>How It Works</h2><p>Simple 4-step tournament flow.</p></div></div>
+  <div class="grid">
+    <div class="card"><h3>01. Choose</h3><p class="meta">Pick an available tournament.</p></div>
+    <div class="card"><h3>02. Register</h3><p class="meta">Submit your in-game details.</p></div>
+    <div class="card"><h3>03. Play</h3><p class="meta">Join the match using the published room details.</p></div>
+  </div>
+</section>
+
+<section id="register">
+  <div class="cta">
+    <h2>Ready to join?</h2>
+    <p style="color:#9da8ba;margin:10px 0 20px">Registration form can be connected next.</p>
+    <a class="btn primary" href="#">Create Registration Form</a>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Booyah Day • Community Gaming Tournament Platform</footer>
+</body>
+</html>
